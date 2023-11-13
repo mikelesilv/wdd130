@@ -235,3 +235,31 @@ nav {
         margin-top: 25px;
     }
 }
+.blog-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    text-align: center;
+}
+
+.blog-block {
+    text-align: left;
+    border: 2px solid #6f7364;
+    background-color: #42E2B8;
+    padding: 20px;
+    width: 400%; /* Asegura que cada blog-block ocupe todo el ancho de su contenedor */
+}
+
+.blog-block h3 {
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.blog-block p {
+    margin-bottom: 10px;
+}
+
+.blog-block img {
+    max-width: 100%;
+}
+
