@@ -245,7 +245,7 @@ nav {
 .blog-block {
     text-align: left;
     border: 2px solid #6f7364;
-    background-color: black;
+    background-color: blue;
     color:white;
     padding: 20px;
     width: 400%; /* Asegura que cada blog-block ocupe todo el ancho de su contenedor */
